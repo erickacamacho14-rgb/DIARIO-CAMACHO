@@ -389,9 +389,10 @@
             const gallery = staticGallery[index];
             let galleryHTML = '';
             
-            if (index === 3) {
+           if (index === 3) {
                 galleryHTML += `<video src="video casa.mp4" class="full-width" controls autoplay muted loop style="margin-bottom: 20px;"></video>`;
             }
+
 
             gallery.forEach((img) => {
                 const isTechnical = img.toLowerCase().includes('plantas') || img.toLowerCase().includes('corte') || img.toLowerCase().includes('fachadas') || img.toLowerCase().includes('arquitectonicas') || img === 'https://res.cloudinary.com/drs6xtmiz/image/upload/v1777565455/foto_szwwyw.png';
